@@ -6,24 +6,31 @@
 
 nav{
     display: grid;
-    grid-template-columns: 30% 60% 10%;
+    grid-template-columns: 5% 85% 15%;
     background-color: rgb(230, 227, 78) ;
     box-shadow: 0 5px 5px rgba(0,0,0,0.2);
-    padding: 100px 200px;
+    padding: 30px 50px;
     align-items: baseline;
-
 }
 
 #logo img{
-    width: 70%;
+    width: 150px;
 }
 
 #social img{
-    width: 100px;
+    width: 50px;
 }
 
 #link{
-    padding: 0 35px;
+    padding:0 230px;
     text-decoration: none;
+    font-weight: 900;
+    color: black;
+    transition: 0.5s;
+    border: 0;
+}
 
+#link a:hover{
+    color: black;
+    border: 5px #000000;
 }
